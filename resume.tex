@@ -1,0 +1,245 @@
+%-------------------------
+% Resume in Latex
+% Author : Christy Yu
+% Based off of: https://github.com/SwiftWinds/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+  \textbf{\Huge \scshape Mateo Wang} \\ \vspace{1pt}
+  \small(301) 250-6219 $|$ \href{mailto:christyyu@ucsb.edu}{\underline{christyyu@ucsb.edu}} $|$
+  \href{https://www.linkedin.com/in/christyyu/}{\underline{linkedin.com/in/christyyu}} $|$
+  \href{https://github.com/qwistaycat}{\underline{github.com/qwistaycat}} $|$
+  San Jose, CA
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Carnegie Mellon University}{Aug. 2025 -- Aug. 2026}
+{M.S. Human Computer Interaction}{Pittsburgh, PA}
+\resumeSubheading
+{UC Santa Barbara}{3.75 GPA $|$ Aug. 2021 -- Jun. 2025}
+{B.S. Computer Science, B.S. Statistics & Data Science}{Santa Barbara, CA}
+\resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Software Engineer Intern}{Jun. 2024 -- Aug. 2024}
+{Lorentz Solution}{Santa Clara, CA}
+\resumeItemListStart
+\resumeItem{Migrated all 44 dynamic libraries from compiler RHEL6 to RHEL78 for PeakView chip-simulation\textbf{(Bash scripting)}}
+\resumeItem{Reduced \textbf{10\%} in backup storage and production release package by automating library clean-up process}
+\resumeItem{Executed regression unit tests on circuit simulation cases; analyzed, debugged and troubleshot on the updated libraries for
+upcoming release of PeakView software}
+\resumeItemListEnd
+
+\resumeSubheading
+{Research Fellowship}{Jan. 2023 -- Present}
+{Human Wildlife Conflict emLab}{UCSB}
+\resumeItemListStart
+\resumeItem{Build and tune \textbf{habit suitability machine learning models} with bioclimatic variables and land cover data to explore how
+climate change drives human-elephant conflict in Namibia in \textbf{R}}
+\resumeItemListEnd
+
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+\resumeSubheading
+{Salesforce Developer Intern}{Oct. 2023 -- Mar. 2024}
+{UCSB IT Department}{Santa Barbara, CA}
+\resumeItemListStart
+\resumeItem{Maintained and implemented Curriculum Planning System web-application \textbf{(Javascript)}}
+\resumeItem{Built petition forms section with \textbf{Salesforce Flows} in Student Success Hub framework}
+\resumeItemListEnd
+
+\resumeSubheading
+{Design and Marketing Lead Organizer}{Aug. 2023 -- June. 2025}
+{SBHacks Hackathon}{UCSB}
+\resumeItemListStart
+\resumeItem{Orchestrated a 48-hour hackathon, bringing together 200+ students from 20+ universities to address environmental
+sustainability, health, and accessibility through coding projects}
+\resumeItem{Draw assets, design UI layout, and designed branding system for hackathon page to maintain visual theme across websites
+and social media \textbf{(Figma, Photoshop)}}
+\resumeItemListEnd
+
+\resumeSubheading
+{Coding Team Research Assistant}{Sept. 2022 -- Jun. 2023}
+{Louis Lab Sensory Systems Behavior}{UCSB}
+\resumeItemListStart
+\resumeItem{Implemented Direct Linear Transformation(DLT) method in \textbf{Python OpenCV script} to turn 3D real-world coordinates to
+2D pixels on dual raspberry pi arduino camera \textbf{(Computer Vision)}}
+\resumeItem{Implemented virtual light-dispersement plume model in \textbf{Python} script to study behavior of Drosophila fly larvae}
+\resumeItemListEnd
+
+\resumeSubheading
+{Data Visualization Director}{Jun. 2021 -- Jun. 2023}
+{The Daily Nexus Newspaper (Data Team)}{UCSB}
+\resumeItemListStart
+\resumeItem{Produced NLP unsupervised topic classification data visualizations with \textbf{NLTK} on Taylor Swift lyrics in article}
+\resumeItem{Coded interactive web-interface to map students' geographical background in analysis article \textbf{(D3 Javascript)}}
+\resumeItem{Hosted workshops, wrote guideline documents, answered questions and advised 100+ members during biweekly check-up
+meetings on making professional data visualizations for publication}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+\resumeProjectHeading
+{\textbf{\href{https://github.com/heyyysus/refract}{\underline{Refract}}}} $|$ {Anti-deepfake Identity Protection App, Data Science Club Project Team}{Jan. 2024 - May. 2024}
+\resumeItemListStart
+\resumeItem{Designed and developed frontend mobile app \textbf{(Tailwind/Javascript/CSS, Figma)}, that disrupt deepfake model training against identity theft from images, poster winning 2nd in annual showcase}
+\resumeItem{Cloaked images disrupts deepfake models by \textbf{70\%} with no visual difference to the human eye}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Newsletter Curator App}} $|$ {UIUX Project Manager & Designer, SB Creative Lab}{Apr. 2024 - Jun. 2024}
+\resumeItemListStart
+\resumeItem{Conducted \textbf{UX research} by surveying and interviewing individuals to identify pain points, consolidated results in user personas, analyzed competing brands}
+\resumeItem{Manage project timeline and resources, delegated tasks weekly, and composed case study}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{\href{https://github.com/Ononymous/Noteblockit}{\underline{Noteblockit}}}} $|$ {Multi-Instrument MP3 to Midi Converter, Data Science Club Project Team}{Mar. 2023 - Apr. 2023}
+\resumeItemListStart
+\resumeItem{Created MP3 to MIDI converter that can preserve multiple instrumental melodies, overcoming the limitation that most Midi converters flatten to a single melody with \textbf{RNN} modeling}
+\resumeItemListEnd
+
+\resumeProjectHeading
+{\textbf{Other projects on \href{https://github.com/qwistaycat?tab=repositories}{\underline{GitHub}}}}
+\resumeSubHeadingListEnd
+
+
+%
+%-----------SKILLS-----------
+\section{Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+        \textbf{Languages}{: Python, C++, Java, HTML/CSS/Javascript, Bash, R, SQL, MATLAB, SAS, Scheme} \\
+        \textbf{Frameworks and Libraries}{: Numpy, Matplotlib, Pandas, Seaborn, Plotly, React, Tailwind, Wallace: Maxent, Scikit-Learn,
+        Pytesseract, Sobel Edge-Detection, OpenCV, NLTkit, pyLDAvis, React, Tailwind CSS} \\
+        }}
+\end{itemize}
+
+\end{document}
