@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1753789560.35881 "/Users/christyyu/github/resume/resume.tex" "resume.pdf" "resume" 1753789560.39805 2
+["pdflatex"] 1753789824.16505 "/Users/christyyu/github/resume/resume.tex" "resume.pdf" "resume" 1753789824.20728 2
   "/Users/christyyu/Library/TinyTeX/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
   "/Users/christyyu/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls" 1717359999 20144 67a5f8e0f9e445e8ec6834e595cebdc9 ""
   "/Users/christyyu/Library/TinyTeX/texmf-dist/tex/latex/base/latexsym.sty" 1705352648 2853 22ef275b938b198870f6474b02bbd3b1 ""
@@ -8,9 +8,9 @@
   "/Users/christyyu/Library/TinyTeX/texmf-dist/web2c/texmf.cnf" 1727217670 42021 a58d36c7ede3d2fc9f93da62d691ddff ""
   "/Users/christyyu/Library/TinyTeX/texmf-var/web2c/pdftex/pdflatex.fmt" 1729630759 1901615 8e9a6d073f256d9fe434a8cfbc12e9bc ""
   "/Users/christyyu/Library/TinyTeX/texmf.cnf" 1728863847.92163 708 85fd07691b6294ba94c59dbc62380410 ""
-  "/Users/christyyu/github/resume/resume.tex" 1753789560.00563 9402 0c0fd8dce63d48cfdbf926d3dba50c21 ""
+  "/Users/christyyu/github/resume/resume.tex" 1753789823.82795 9402 0c0fd8dce63d48cfdbf926d3dba50c21 ""
   "resume.aux" 0 -1 0 "pdflatex"
-  "resume.tex" 1753789560.00563 9402 0c0fd8dce63d48cfdbf926d3dba50c21 ""
+  "resume.tex" 1753789823.82795 9402 0c0fd8dce63d48cfdbf926d3dba50c21 ""
   "titlesec.sty" 0 -1 0 ""
   (generated)
   "resume.aux"
