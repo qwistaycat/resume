@@ -54,7 +54,7 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\scshape\raggedright\large
+  \vspace{-10pt}\scshape\raggedright\large
 }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
@@ -84,20 +84,23 @@
 }
 
 \newcommand{\resumeProjectHeading}[2]{
-    \item
+    \vspace{-5pt}\item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
       \small#1 & #2 \\
-    \end{tabular*}\vspace{-7pt}
+    \end{tabular*}\vspace{-2pt}
 }
+
 
 \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
 \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0in, label={}]}
-\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}\vspace{-5pt}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeProjectItemListEnd}{\end{itemize}\vspace{5pt}}
+
 
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -105,7 +108,7 @@
 
 \begin{document}
 
-%----------HEADING----------
+% ----------HEADING----------
 % \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
 %   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
 %   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
@@ -113,7 +116,7 @@
 
 \begin{center}
   \textbf{\Huge \scshape Christy Yu} \\ \vspace{1pt}
-  \small(301) 250-6219 $|$ \href{mailto:christyyu@ucsb.edu}{\underline{christyyu2003@gmail.com}} $|$
+  \small(301) 250-6219 $|$ \href{mailto:christyyu2003@gmail.com}{\underline{christyyu2003@gmail.com}} $|$
   \href{https://www.linkedin.com/in/christyyu/}{\underline{linkedin.com/in/christyyu}} $|$
   \href{https://github.com/qwistaycat}{\underline{github.com/qwistaycat}} $|$
   San Jose, CA
@@ -131,11 +134,18 @@
 {B.S. Computer Science, Statistical Science Minor}{Santa Barbara, CA}
 \resumeSubHeadingListEnd
 
+%-----------SKILLS-----------
+\section{Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+        \textbf{Design}{: Visual UI, Prototyping, Usability Testing, UX Research, Figma, Photoshop, InDesign } \\
+        \textbf{Languages}{: Python, C++, Java, HTML/CSS/Javascript, TypeScript, Bash, R, SQL, MATLAB, SAS, Scheme}
+        }}
+\end{itemize}
 
 %-----------EXPERIENCE-----------
 \section{Experience}
 \resumeSubHeadingListStart
-
 \resumeSubheading
 {UI/UX Design Intern}{Jun. 2025 - Aug. 2025}
 {Dawdle AI -- Science-backed Anti-Procrastination App Startup}{San Jose, CA}
@@ -152,8 +162,8 @@
 {JAFFX | open-source guitar pedal startup}{Santa Barbara, CA}
 \resumeItemListStart
 \resumeItem{Created pitch deck that secured \textbf{2nd place and \$7,500} in funding at UCSB New Ventures Competition}
-\resumeItem{Designed complete brand identity (logo, typography, color system) and company website, establishing digital presence for hardware startup}
-\resumeItem{Built responsive website using \textbf{(Next.js)} (live at \href{https://jaffx.audio}{\underline{jaffx.audio}}), translating brand vision into functional digital experience}
+\resumeItem{Designed complete brand identity (logo, typography, color system) and company website}
+\resumeItem{Built responsive website using \textbf{(Next.js)} (live at \href{https://jaffx.audio}{\underline{jaffx.audio}})}
 \resumeItemListEnd
 
 \resumeSubheading
@@ -187,44 +197,32 @@ climate change drives human-elephant conflict in \textbf{R}}
 
 %-----------PROJECTS-----------
 \section{Projects}
-% \resumeSubHeadingListStart
-
+\resumeSubHeadingListStart
 \resumeProjectHeading
 {\textbf{\href{https://github.com/heyyysus/refract}{\underline{Refract}}} $|$ Anti-deepfake ID Protection ML software}{Jan. 2024 - May. 2024}
 \resumeItemListStart
 \resumeItem{Built AI model and frontend app \textbf{(Tailwind/Javascript/CSS, Figma)} that disrupts identity-theft deepfakes model training, research poster winning 2nd in annual showcase}
 \resumeItem{Cloaked images \textbf{disrupts deepfake models by 70\%} with no visual difference to the human eye}
-\resumeItemListEnd
+\resumeProjectItemListEnd
 
 \resumeProjectHeading
 {\textbf{Disability Accommodations Advocacy LLM} $|$ UX Researcher \& Designer}{Nov. 2025 - Present}
 \resumeItemListStart
-\resumeItem{Designed conversational AI webapp helping students with disabilities navigate accommodation requests, leading user research through 3 interviews and usability testing}
-\resumeItem{Performed literature review on accessibility solutions and designed system prompt enabling students to chat with AI and draft application materials}
+\resumeItem{Designed conversational AI webapp helping students with disabilities navigate accommodations, leading user research through 3 interviews and usability testing}
+\resumeItem{Performed literature review on accessibility solutions, collaborated with developers to create system prompt and \textbf{RAG-powered AI} product interfaces}
 \resumeItem{Usability testing showed all users found LLM-assisted workflow \textbf{reduced mental load by 20\%}}
-\resumeItemListEnd
+\resumeProjectItemListEnd
 
 \resumeProjectHeading
-{\textbf{Empowering Small Instagram Artists in the Age of GenAI} $|$ UX Researcher}{Aug. 2025 - Dec. 2025}
+{\textbf{Empowering Instagram Artists in the Age of GenAI} $|$ UX Researcher}{Aug. 2025 - Dec. 2025}
 \resumeItemListStart
 \resumeItem{Conducted 10 directed storytelling interviews with small Instagram artists to understand their generative AI experiences, synthesizing 200+ interpretation notes by affinity mapping, empathy mapping, and cultural modeling}
 \resumeItem{Presented research insights and design recommendations at course showcase, proposing AI transparency features, community trust initiatives, and creator protection tools}
-\resumeItemListEnd
+\resumeProjectItemListEnd
 
 \resumeProjectHeading
-{\textbf{Other projects on \href{https://github.com/qwistaycat?tab=repositories}{\underline{GitHub}}}}
-% \resumeSubHeadingListEnd
+{\textbf{Other projects on \href{https://github.com/qwistaycat?tab=repositories}{\underline{GitHub}}}}{}
 
-
-% %
-% %-----------SKILLS-----------
-% \section{Skills}
-% \begin{itemize}[leftmargin=0.15in, label={}]
-%   \small{\item{
-%         \textbf{Languages}{: Python, C++, Java, HTML/CSS/Javascript, Bash, R, SQL, MATLAB, SAS, Scheme} \\
-%         \textbf{Frameworks and Libraries}{: Numpy, Matplotlib, Pandas, Seaborn, Plotly, React, Tailwind, Wallace: Maxent, Scikit-Learn,
-%         Pytesseract, Sobel Edge-Detection, OpenCV, NLTkit, pyLDAvis, React, Tailwind CSS} \\
-%         }}
-% \end{itemize}
+\resumeSubHeadingListEnd
 
 \end{document}
