@@ -1,10 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.22)  17 SEP 2026 20:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.22)  25 SEP 2026 12:31
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/christyyu/github/resume/resume.tex
-(/Users/christyyu/github/resume/resume.tex
+**resume.tex
+(./resume.tex
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-09-10>
 (/Users/christyyu/Library/TinyTeX/texmf-dist/tex/latex/base/article.cls
@@ -264,6 +263,7 @@ LaTeX Font Info:    ... okay on input line 109.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 109.
 LaTeX Font Info:    ... okay on input line 109.
 Package hyperref Info: Link coloring OFF on input line 109.
+ (./resume.out) (./resume.out)
 \@outlinefile=\write3
 \openout3 = `resume.out'.
 
@@ -288,7 +288,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 131.
 
 
-/Users/christyyu/github/resume/resume.tex:231: LaTeX Error: \begin{itemize} on input line 139 ended by \end{document}.
+! LaTeX Error: \begin{itemize} on input line 139 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -318,32 +318,26 @@ L3 programming layer <2024-09-10>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-Package rerunfilecheck Warning: File `resume.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `resume.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  7DA66CBF4DB6747ADCD9FDEC91CEC702;337.
+Package rerunfilecheck Info: File `resume.out' has not changed.
+(rerunfilecheck)             Checksum: 7DA66CBF4DB6747ADCD9FDEC91CEC702;337.
  )
 (\end occurred inside a group at level 1)
 
 ### semi simple group (level 1) entered at line 139 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 10585 strings out of 475539
- 169496 string characters out of 5776406
- 605459 words of memory out of 5000000
- 33114 multiletter control sequences out of 15000+600000
+ 10594 strings out of 475539
+ 169518 string characters out of 5776406
+ 605449 words of memory out of 5000000
+ 33120 multiletter control sequences out of 15000+600000
  564677 words of font info for 61 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,11n,79p,287b,622s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,256b,622s stack positions out of 10000i,1000n,20000p,200000b,200000s
  </Users/christyyu/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk> </Users/christyyu/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1095.600pk> </Users/christyyu/Library/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcbx1000.600pk></Users/christyyu/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></Users/christyyu/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/christyyu/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></Users/christyyu/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/christyyu/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/christyyu/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></Users/christyyu/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on resume.pdf (1 page, 109758 bytes).
+Output written on resume.pdf (1 page, 109998 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
+ 86 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
